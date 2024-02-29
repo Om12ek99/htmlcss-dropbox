@@ -16,6 +16,9 @@ header{
     flex-direction: row;
     justify-content: space-between;
 }
+.flex{
+    display: flex;
+}
 .headleft{
     /*debug*/
     height: 50px;
@@ -34,11 +37,71 @@ header{
     height: 600px;
     width: 100%;
     z-index: -1;
+    justify-content: center;
+
 }
 .first{
     /*debug*/
     background-color: rgb(35, 116, 238);
 }
+
+
+.box1{
+    /*debug*/
+    width: 40%;
+    height: 600px;
+    background-color: green;
+}
+.box2{
+       /*debug*/
+       width: 40%;
+       height: 600px;
+       background-color: blue;
+}
+.box3{
+    /*debug*/
+    width: 40%;
+    height: 600px;
+    background-color: rgba(102, 102, 168, 0.568);
+}
+.box4{
+    /*debug*/
+    width: 40%;
+    height: 600px;
+    background-color: rgb(148, 122, 87);;
+}
+.box5{
+    /*debug*/
+    width: 40%;
+    height: 600px;
+    background-color: greenyellow;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .second{
      /*debug*/
     background-color:blueviolet;
