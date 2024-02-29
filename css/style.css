@@ -148,6 +148,17 @@ header{
     margin: 3px;
 }
 
+/*sixth row*/
+.row6{
+    height: 100px;
+    width: 100%;
+    background-color: aqua;
+}
+.column61{
+    background-color: chocolate;
+    height: auto;
+    width: 30%
+}
 
 
 
