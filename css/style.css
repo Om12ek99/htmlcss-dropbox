@@ -1,3 +1,4 @@
+/*RESET*/
 *{
     padding: 0;
     margin: 0;
@@ -6,13 +7,18 @@
     position: relative;
 }
 
+
+
 img{
     max-width: 100%;
+}
+.flex{
+    display: flex;
 }
 /*HEADER*/
 header{
     height: 50px;
-    background-color: aqua;
+    background-color: rgb(255, 255, 255);
     width: 100%;
     position: fixed;
     display: flex;
@@ -20,19 +26,46 @@ header{
     justify-content: space-between;
     z-index: 999;
 }
-.flex{
-    display: flex;
-}
+
 .headleft{
     /*debug*/
+    width: fit-content;
     height: 50px;
-    background-color: gray;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+ul{
+    list-style-type: none;
+    margin-left: 30px;
+    color: black
+}
+
+.headleft ul li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
 }
 .headright{
     /*debug*/
+    width: fit-content;
     height: 50px;
-    width: 100px;
-    background-color: gray;
+    margin-left: 20px;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.headright ul li{
+    display: inline-block;
+    margin: 0 10px;
+    position: relative;
+    cursor: pointer;
+}
+
+.headbutton{
+    width: 70px;
 }
 
 /*WRAPPER 1*/
@@ -55,6 +88,9 @@ header{
     margin-top: 80px;
 }
 
+.logo{
+    cursor: pointer;
+}
 
 
 
