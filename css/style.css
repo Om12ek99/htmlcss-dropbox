@@ -62,9 +62,10 @@ header{
 }
 .box3{
     /*debug*/
-    width: 40%;
-    height: auto;
+    width: 100%;
+    height: 200px;
     background-color: rgba(102, 102, 168, 0.568);
+    justify-content: space-between;
 }
 .box4{
     /*debug*/
@@ -75,12 +76,12 @@ header{
 .box5{
     /*debug*/
     width: 40%;
-    height: auto;
+    height: 200px;
     background-color: greenyellow;
-    margin-top: 20px;
 }
+/*first wrapper done*/
 
-/*second-section*/
+/*second-wrapper*/
 .second{
     /*debug*/
    background-color:blueviolet;
@@ -120,14 +121,14 @@ header{
     width:100%%;
     justify-content: space-between;
 }
-.column41{
+.column:first-child{
     height: auto;
     width: 30%;
     background-color: gray;
     flex-grow: 1;
 }
 
-.column42{
+.column{
     height: auto;
     width: 30%;
     background-color: blanchedalmond;
@@ -158,42 +159,79 @@ header{
     height: auto;
     width: 30%
 }
+/*second wrapper done*/
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+/*third wrapper*/
 .third{
      /*debug*/
-    background-color: orange;
+     height: fit-content;
+     width: 100%;
+     justify-content: space-between;
+    
 }
+.macrosquare{
+    height: 200px;
+    width: 20%;
+    background-color: cornflowerblue;
+}
+
+
+/*fourth wrapper*/
 .fourth{
-     /*debug*/
+    /*debug*/
+    height: 200px;
     background-color: rgb(155, 112, 55);
+    justify-content: center;
+
 }
+.segment:first-child{
+    height: auto;
+    width: 30%;
+    background-color: gray;
+    flex-grow: 1;
+}
+
+.segment{
+    height: auto;
+    width: 30%;
+    background-color: blanchedalmond;
+}
+
+/*fifth-wrapper*/
 .fifth{
-     /*debug*/
-    background-color: rgba(71, 129, 43, 0.822);
+    /*debug*/
+   background-color: rgba(71, 129, 43, 0.822);
+   height: fit-content;
+   padding: 2rem
 }
+/*main-done*/
+
+/*footer*/
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
