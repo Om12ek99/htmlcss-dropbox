@@ -5,6 +5,8 @@
     font-family:'Open Sans', sans-serif;
     position: relative;
 }
+
+/*HEADER*/
 header{
     height: 50px;
     background-color: aqua;
@@ -24,4 +26,32 @@ header{
     height: 50px;
     width: 100px;
     background-color: gray;
+}
+
+/*WRAPPER 1*/
+.wrapper{
+    /*debug*/
+    height: 600px;
+    width: 100%;
+    z-index: -1;
+}
+.first{
+    /*debug*/
+    background-color: rgb(35, 116, 238);
+}
+.second{
+     /*debug*/
+    background-color:blueviolet;
+}
+.third{
+     /*debug*/
+    background-color: orange;
+}
+.fourth{
+     /*debug*/
+    background-color: rgb(155, 112, 55);
+}
+.fifth{
+     /*debug*/
+    background-color: rgba(71, 129, 43, 0.822);
 }
