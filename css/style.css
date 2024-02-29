@@ -34,9 +34,9 @@ header{
 /*WRAPPER 1*/
 .wrapper{
     /*debug*/
-    height: 600px;
+    height: fit-content;
     width: 100%;
-    z-index: -1;
+    /* z-index: -1; */
     justify-content: center;
 
 }
@@ -49,33 +49,84 @@ header{
 .box1{
     /*debug*/
     width: 40%;
-    height: 600px;
+    height: auto;
     background-color: green;
 }
 .box2{
-       /*debug*/
-       width: 40%;
-       height: 600px;
-       background-color: blue;
+    flex-direction: column;
+    gap: 10px;
+    /*debug*/
+    width: 40%;
+    height: fit-content;
+    background-color: blue;
 }
 .box3{
     /*debug*/
     width: 40%;
-    height: 600px;
+    height: auto;
     background-color: rgba(102, 102, 168, 0.568);
 }
 .box4{
     /*debug*/
     width: 40%;
-    height: 600px;
+    height: auto;
     background-color: rgb(148, 122, 87);;
 }
 .box5{
     /*debug*/
     width: 40%;
-    height: 600px;
+    height: auto;
     background-color: greenyellow;
+    margin-top: 20px;
 }
+.row1{
+    /*debug*/
+    height: 30px;
+    width: 100%;    
+    background-color: aliceblue;
+}
+
+/*second row*/
+.row2{
+    width: 100%;
+    height: 600px;
+    background-color: aliceblue;
+    flex-direction: row;
+    justify-content: space-between;
+    padding: 5px;
+}
+.column2{
+    height: auto;
+    width: 30%;
+    background-color: gray;
+}
+
+/*third row*/
+.row3{
+    /*debug*/
+    height: 50px;
+    width: 100%;    
+    background-color: aliceblue;
+}
+.row4{
+    height: 100px;
+    width:100%%;
+    justify-content: space-between;
+}
+.column41{
+    height: auto;
+    width: 30%;
+    background-color: gray;
+    flex-grow: 1;
+}
+
+.column42{
+    height: auto;
+    width: 30%;
+    background-color: blanchedalmond;
+}
+
+/*foirth-row*/
 
 
 
