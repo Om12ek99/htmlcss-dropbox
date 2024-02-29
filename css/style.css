@@ -1,0 +1,27 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family:'Open Sans', sans-serif;
+    position: relative;
+}
+header{
+    height: 50px;
+    background-color: aqua;
+    width: 100%;
+    position: fixed;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.headleft{
+    /*debug*/
+    height: 50px;
+    background-color: gray;
+}
+.headright{
+    /*debug*/
+    height: 50px;
+    width: 100px;
+    background-color: gray;
+}
