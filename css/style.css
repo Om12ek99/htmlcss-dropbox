@@ -79,6 +79,12 @@ header{
     background-color: greenyellow;
     margin-top: 20px;
 }
+
+/*second-section*/
+.second{
+    /*debug*/
+   background-color:blueviolet;
+}
 .row1{
     /*debug*/
     height: 30px;
@@ -108,6 +114,7 @@ header{
     width: 100%;    
     background-color: aliceblue;
 }
+/*fouth-row*/
 .row4{
     height: 100px;
     width:100%%;
@@ -126,37 +133,48 @@ header{
     background-color: blanchedalmond;
 }
 
-/*foirth-row*/
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-.second{
-     /*debug*/
-    background-color:blueviolet;
+/*fifth-row*/
+.row5{
+    flex-wrap: wrap;
+    height: 400px;
+    width:100%;
+    justify-content: center;
+    
 }
+.card{
+    width: calc(80%/3);
+    height: auto;
+    background-color: grey;
+    margin: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 .third{
      /*debug*/
     background-color: orange;
