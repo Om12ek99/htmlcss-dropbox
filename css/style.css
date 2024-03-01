@@ -139,6 +139,13 @@ button{
     border: none;
     cursor: pointer;
 }
+.buttoncolor:hover{
+    background-color: #62799e;
+}
+.textoverlay:hover{
+    color: #000000;
+    text-decoration: underline;
+}
 
 .fa-arrow-down{
     margin-top: 45px;
