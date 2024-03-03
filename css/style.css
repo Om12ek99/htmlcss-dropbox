@@ -234,7 +234,8 @@ button:hover{
 .sec2 h1{
     font-size: 20px;
 }
-h2{
+
+.sec2 h2{
     font-size: 15px;
     margin-bottom: 25px;
 }
@@ -289,7 +290,9 @@ hr{
 #thirdrowbutton{
     width: 100%;
 }
-
+.firstcol h2{
+    font-size: 15px;
+}
 
 /*fouth-row*/
 .row4{
@@ -297,7 +300,10 @@ hr{
     width:100%;
     justify-content: space-between;
     margin-top: 150px;
+    margin-bottom: 100px;
 }
+
+
 .column:first-child{
     height: fit-content;
     width: 62%;
@@ -330,16 +336,21 @@ hr{
 /*fifth-row*/
 .row5{
     flex-wrap: wrap;
-    height: 800px;
+    height: fit-content;
     width:100%;
-    justify-content: center;
+    justify-content:space-between;
+    margin-top: 20px;
+    
     
 }
 .card{
     width: calc(80%/3);
     height: auto;
-    background-color: grey;
+    background-color: rgb(255, 255, 255);
     margin: 3px;
+}
+.card h1{
+    font-size: 20px;
 }
 
 /*sixth row*/
