@@ -139,7 +139,7 @@ button{
     border: none;
     cursor: pointer;
 }
-.buttoncolor:hover{
+button:hover{
     background-color: #62799e;
 }
 .textoverlay:hover{
@@ -265,10 +265,32 @@ hr{
 /*third row*/
 .row3{
     /*debug*/
-    height: 50px;
+    height: fit-content;
     width: 100%;    
-    background-color: rgb(24, 24, 24);
+    background-color:white;
+    border: 1px solid black;
+    margin-top: 30px;
+    
 }
+.firstsec{   
+    padding: 10px;
+    border-bottom:1px solid black;
+    text-align: center;
+}
+.secondsec{ 
+    margin-top: 0;
+    flex-direction: row;
+    padding: 25px;
+
+}
+.secondcol{
+    width: 30%;
+}
+#thirdrowbutton{
+    width: 100%;
+}
+
+
 /*fouth-row*/
 .row4{
     height: 100px;
