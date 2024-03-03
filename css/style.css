@@ -355,13 +355,15 @@ hr{
 
 /*sixth row*/
 .row6{
-    height: 100px;
+    height: fit-content;
     width: 100%;
 }
 .column61{
-    background-color: chocolate;
+    background-color: rgb(255, 255, 255);
     height: auto;
-    width: 30%
+    width: 50%;
+    margin-top: 150px;
+    margin-bottom: 100px;
 }
 /*second wrapper done*/
 
@@ -391,27 +393,44 @@ hr{
 .fourth{
     /*debug*/
     height: 200px;
-    background-color: rgb(55, 115, 155);
+    background-color:#b4d0e7;
     justify-content: center;
 
 }
 .box4{
     /*debug*/
-    width: 40%;
+    width: 50%;
     height: auto;
-    background-color: rgb(148, 122, 87);;
+    padding-top: 25px;
+    
 }
 .segment:first-child{
     height: auto;
-    width: 30%;
-    background-color: gray;
-    flex-grow: 1;
+    width: 45%;
+    color: #61082b;
+
 }
 
 .segment{
     height: auto;
-    width: 30%;
-    background-color: blanchedalmond;
+    width: 40%;
+    margin-top: 45px;
+    position: relative;
+}
+
+#buttonprova{
+    position:absolute;
+    width: 65%;
+    top: 0;
+    right: 0;
+    margin-top: 0;
+    color: #000000;
+    background-color: white;
+}
+#buttonprova:hover{
+    background-color: #62799e;
+    color:white;
+    border: none;
 }
 
 /*fifth-wrapper*/
