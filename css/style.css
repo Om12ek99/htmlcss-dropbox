@@ -7,13 +7,19 @@
     position: relative;
 }
 
-
+a {color:#000000;}         /* Unvisited link  */
+a:visited {color:inherit}    /* Visited link    */
 
 img{
     max-width: 100%;
 }
 .flex{
     display: flex;
+}
+
+main{
+    scroll-snap-type: y mandatory;
+    scroll-behavior: smooth;
 }
 /*HEADER*/
 header{
@@ -182,6 +188,7 @@ button:hover{
 .second{
     /*debug*/
    background-color:rgb(255, 255, 255);
+   scroll-snap-align: start;
 }
 .box2{
     flex-direction: column;
@@ -302,7 +309,7 @@ button:hover{
     margin-top: 150px;
     margin-bottom: 100px;
 }
-hr
+
 
 .column:first-child{
     height: fit-content;
@@ -378,14 +385,78 @@ hr
 .box3{
     /*debug*/
     width: 100%;
-    height: 200px;
-    background-color: rgba(102, 102, 168, 0.568);
-    justify-content: space-between;
+    height: fit-content;
+    flex-direction: row;
 }
 .macrosquare{
-    height: 200px;
-    width: 20%;
-    background-color: cornflowerblue;
+
+    width: calc(100%/3);
+
+    flex-wrap: wrap;
+    position: relative;
+}
+.squareitem{
+    aspect-ratio: 1;
+    width: calc(100%/2);
+}
+.squareitem img{
+    position: absolute;
+    padding: 60px;
+    top: 50%;
+    transform: translateY(-50%);
+}
+
+/*center square section*/
+.macrosquare:nth-child(2){
+    padding: 40px;
+}
+
+.logocenter{
+    height: fit-content;
+}
+.logocenter img{
+    margin-bottom: -90px;
+    width: 250px;
+    margin-top: 45px;
+}
+/*color of svg*/
+.invertcolorsvg{
+    filter: invert(1);
+}
+
+/*backgroundcolor of svg*/
+
+/*First macrosquare*/
+.macrosquare:first-child>.svg:nth-child(1){
+    background-color: #a2d39b;
+}
+.macrosquare:first-child>.svg:nth-child(2){
+    background-color: #61082b;
+}
+.macrosquare:first-child>.svg:nth-child(3){
+    background-color: #0093ce;
+}
+.macrosquare:first-child>.svg:nth-child(4){
+    background-color: #ff1c1c;
+}
+
+/*second macrosquare*/
+.macrosquare:last-child>.svg:nth-child(1){
+    background-color: #d5001f;
+}
+.macrosquare:last-child>.svg:nth-child(2){
+    background-color: #b4d0e7;
+}
+.macrosquare:last-child>.svg:nth-child(3){
+    background-color: #0d2481;
+}
+.macrosquare:last-child>.svg:nth-child(4){
+    background-color: #ffd830;
+}
+
+/*credits spacing*/
+#credits{
+    margin-top: 40px;
 }
 
 
@@ -423,6 +494,7 @@ hr
     width: 65%;
     top: 0;
     right: 0;
+    transform: translateX(+40%);
     margin-top: 0;
     color: #000000;
     background-color: white;
