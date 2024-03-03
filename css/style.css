@@ -474,28 +474,49 @@ footer{
     height: fit-content;
     width: 100%;
     display: flex;
-    justify-content: center;   
+    justify-content: center; 
+    padding-top: 60px;
+    margin-top: 50px;
 }
 
 .fot-box{
    
-    width: 40%;
-    height: 250px;
+    width: 50%;
+    height: fit-content;
     /* background-color: blue;    */
     margin: 20px;
 }
 
 .links{
     height: auto;
-    width: 200px;
-    background-color: aqua;
+    width: 250px;
     margin: 5px;
 } 
 
+.links h1{
+    font-size: 20px;
+    margin-bottom: 20px;
+    color: white;
+}
+.links ul{
+    margin-left: 0;
+    margin-bottom: 100px;
+}
 
+.links ul li{
+    margin-top: 15px;
+    color: white;
+}
 
+.links hr{
+    width: 50%;
+    margin-bottom: 35px;
+    color: white;
+}
 
-
+.language{
+    color: white;
+}
 
 
 
