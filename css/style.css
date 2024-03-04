@@ -6,6 +6,9 @@
     font-family:'Open Sans', sans-serif;
     position: relative;
 }
+html{
+    scroll-behavior: smooth;
+}
 
 a {color:#000000;}         /* Unvisited link  */
 a:visited {color:inherit}    /* Visited link    */
@@ -539,6 +542,19 @@ button:hover{
 .box5 ul li .fa-chevron-down:hover{
     color: #0061ff;
 }
+
+.box5 ul li ul.dropdown li{
+    display: block;
+}
+.box5 ul li ul.dropdown{
+    width: 100%;
+    z-index: 999;
+    display: none;
+}
+.box5 ul li:hover ul.dropdown{
+    display: block;
+}
+
 /*main-done*/
 
 /*footer*/
