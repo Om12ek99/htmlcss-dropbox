@@ -632,7 +632,7 @@ footer{
 @keyframes column2left{
     from {
         opacity: 0;
-        transform: translateX(-50%);
+        transform: translateX(-70%);
     }
     to {
         opacity: 1;
@@ -643,7 +643,7 @@ footer{
 @keyframes column2right{
     from {
         opacity: 0;
-        transform: translateX(+50%);
+        transform: translateX(+70%);
     }
     to {
         opacity: 1;
@@ -653,11 +653,11 @@ footer{
 @keyframes row3{
     from {
         opacity: 0;
-        transform: translateY(+50%);
+        transform: translateY(+800%);
     }
     to {
         opacity: 1;
-        transform: translateX(0);
+        transform: translateY(0);
     }
 }
 
