@@ -592,15 +592,90 @@ footer{
 }
 
 
+/*animations*/
+@keyframes img1{
+    from {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    to {
+        opacity: 0;
+        transform: translateX(+50%);
+    }
+}
+@keyframes img2{
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes column2left{
+    from {
+        opacity: 0;
+        transform: translateX(-50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+    
+}
+@keyframes column2right{
+    from {
+        opacity: 0;
+        transform: translateX(+50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes row3{
+    from {
+        opacity: 0;
+        transform: translateY(+50%);
+    }
+    to {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
 
 
 
+#imageop{
+    animation: img1;
+    animation-timeline: view();
+    animation-range: cover 50%;}
 
+#imagepartner{
+    animation: img2;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.column2:first-child{
+    animation: column2left;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.column2:last-child{
+    animation: column2right;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
+.row3{
+    animation: row3;
+    animation-timeline: view();
+    animation-range: entry 0% cover 50%;
+}
 
-
-
-
-
+a{
+    text-decoration: none;
+}
 
 
 
